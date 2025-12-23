@@ -9,3 +9,11 @@
 | VLF (3-30 kHz)          | Advanced Digital (MSK/F SK)  | BEL VLF Modulator (INS Kattabomman) | 50-400 bps                  | Submarine comms through seawater                 | Global (submerged) bel-india​     |
 | LF (30-300 kHz)         | CW, Narrowband FSK           | Legacy submarine wake detection     | 50 bps                      | Emergency buoy comms                             | 1000 km                           |
 | Satellite (L/S/C bands) | BPSK/QPSK, DAMA              | INMARSAT, Link-II SATCOM            | 64 kbps-2 Mbps              | Beyond LOS, high data rate, imagery              | Global idrw​                      |
+
+
+
+| Type | β (Mod Index) | Deviation | Bandwidth    | Navy Use Case                         |
+| ---- | ------------- | --------- | ------------ | ------------------------------------- |
+| NBFM | β < 0.3       | ±2.5 kHz  | ~4 kHz       | VHF ship-ship voice (25 kHz channels) |
+| WBFM | β > 1-10      | ±75 kHz   | ~200 kHz     | Audio broadcast (not tactical)        |
+| PM   | Fixed phase   | N/A       | Depends on β | Digital precursors (BPSK/QPSK)        |
