@@ -320,7 +320,7 @@ Typically, $B_{PPM} \approx 1.5 \times B_{PWM}$
 
 ---
 
-## 4. Comparative Analysis: Selection Criteria for Navy Operations
+## 4. Comparative Analysis: Selection Criteria for Operations
 
 ### 4.1 Noise and Channel Conditions
 
@@ -411,17 +411,3 @@ A: Yes. PWM differentiation yields PPM-like position information. This derivativ
 - Sonar telemetry (PAM/PPM)
 - Fire control systems (PPM positioning)
 - Navigation systems (PPM timing)
-
----
-
-## 7. Conclusion
-
-Pulse modulation techniques form the backbone of naval electrical and communication systems:
-
-- **PAM** provides the theoretical foundation and is used where simplicity is prioritized
-- **PWM** delivers efficient power control for ship propulsion and electrical systems
-- **PPM** ensures reliable, noise-immune long-distance communications critical for naval operations
-
-Understanding the trade-offs between simplicity, power efficiency, noise immunity, and bandwidth is essential for Navy SSB/SSC technical interviews and field operations. **PPM represents the pinnacle of pulse modulation for secure naval communications, while PWM is indispensable for modern ship propulsion systems.**
-
-Modern naval vessels increasingly employ **combined techniques**: PWM for power management, PPM for secure communications, creating hybrid systems that leverage the advantages of each modulation technique.
